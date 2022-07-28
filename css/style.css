@@ -1,0 +1,97 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@400;500;700&display=swap');
+
+/* RESET */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol,
+ul {
+	list-style: none;
+}
+blockquote,
+q {
+	quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* END - RESET */
+
+/* VARIAVEIS */
+:root {
+	--color-primary: #FF4F00;
+    --color-vprimary: #FF6A00;
+	--color-secundary: #FF9000;
+    --color-vsecondary: #FFA700;
+
+    --color-white: #ffffff;
+    --color-black: #ffffff;
+	--color-dark-grey: #0C0C0C;
+    --color-medium-grey: #2C2C2C;
+    --color-pale-grey: #B5B5B5;
+    --color-light-grey: #6E6E6E;
+    --color-dark-orange: #F89D24;
+    --color-light-orange: #FEC024;
+    --color-medium-grey-two: #262626;
+    --color-medium-vgrey-two: #686868;
+    --color-light-grey-two: #707070;
+
+}
+
+/* PADRÃO */
+body {
+	font-family: 'Yantramanav', sans-serif;
+	background: linear-gradient(90deg, #1A1A1A 0%, var(--color-medium-grey) 100%);
+}
+
+.btn-fill {
+    height: 3.8125rem;
+    width: 9.1875rem;
+    padding: 1.25rem 3.125rem;
+    border-radius: 0.3125rem;
+    background-color: var(--color-dark-orange);
+
+    /* TEXT STYLE */
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    color: var(--color-white);
+}
+
+.btn-fill--no-fill {
+    background-color: transparent;
+    border: 0.0625rem solid var(--color-white);
+    box-sizing: border-box;
+}
